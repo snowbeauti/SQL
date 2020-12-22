@@ -18,7 +18,7 @@ order by hire_date asc;
 SELECT job_title,
        max_salary
 FROM jobs
-order by job_title desc, +max_salary DESC;
+order by job_title desc, max_salary DESC;
 
 /*
 문제3.
